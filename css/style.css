@@ -1,0 +1,25 @@
+nav, ul, li {
+  padding: 7px;
+  display: inline;
+}
+h1, h2{
+  text-align: center;
+}
+h2::before{
+  content: "\2618";
+}
+article>p::first-line {
+  font-size: 1.5em;
+  color: blue;
+}
+article>p {
+  text-indent: 3em;
+}
+footer {
+  display: flex;
+  width: 100%;
+  /* column-count: 3; */
+}
+body {
+  background: linear-gradient(to left, rgb(197, 234, 234), rgb(223, 226, 226));
+}
